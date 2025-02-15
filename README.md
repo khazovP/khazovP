@@ -22,8 +22,8 @@ Greetings! I’m a cybersecurity analyst with 3 years of experience in 24x7 SOC 
 
 ### Sigma C2
 
-Developing a custom Command & Control (C2) framework designed for red team operations. I want to learn more about offensive security, so I decided to learn to code at least at basic level. Implemented secure communcation, automation, payload generation, and command execution features to simulate adversary tactics. More details in repo [GitHub Repository](https://github.com/yourusername/Sigma-C2)
+Developing a custom Command & Control (C2) framework designed for red team operations. I want to learn more about offensive security, so I decided to learn to code at least at basic level. Implemented secure communcation, automation, payload generation, and command execution features to simulate adversary tactics. More details in repo [GitHub Repository](https://github.com/khazovP/Sigma-C2)
 
 ### Azure Mini SOC
 
-Developing a small-scale SOC environment in Microsoft Azure. Already implemented network segmentation and integrated Palo Alto firewall. Set up firewall policies, routing and integrated into Azure networking. Collected basic security logs for. Next stages include Honeypot, SIEM integration and endpoint security monitoring. More details in repo [GitHub Repository](https://github.com/damitasalmon/Azure-SOC-Honeynet)
+This project aims to deploy a segmented firewall protected network in Azure with honeypot, target host (equipped with an EDR agent), an EDR server, an attacker host, and a SIEM. The goal is to create a controlled environment for cybersecurity analysis, monitoring, and testing. Already implemented network segmentation and integrated Palo Alto firewall. Set up policies, routing and integrated FW into Azure networking. Next stages include Honeypot, SIEM integration and endpoint security monitoring. More details in repo [GitHub Repository](https://github.com/khazovP/Mini-SOC)
