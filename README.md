@@ -8,7 +8,7 @@ Greetings! I’m a cybersecurity analyst with 3 years of experience in 24x7 SOC 
 | Project                                      | Skills                                         |
 |----------------------------------------------|-----------------------------------------------|
 | Sigma C2                                    | Command & Control (C2) Development, Red teaming, Scripting & Automation |
-| Azure Mini SOC                              | Network Architecture and Security, Firewall Configuration, Cloud Security |
+| Azure Mini SOC                              | Network Architecture and Security, Firewall Configuration, Cloud Security, Log Management |
 
 ## Tools
 
