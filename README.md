@@ -18,12 +18,38 @@ Greetings! I’m a cybersecurity analyst with 3 years of experience in 24x7 SOC 
 <img src="https://img.shields.io/badge/-Microsoft_Sentinel-0078D4?&style=for-the-badge&logo=Microsoft&logoColor=white" />
 <img src="https://img.shields.io/badge/-Linux-FCC624?&style=for-the-badge&logo=Linux&logoColor=black" />
 
-## Projects
+## 🚀 Projects  
 
-### Sigma C2
+### **Sigma C2 – Custom Command & Control Framework**  
+**Offensive security meets hands-on development.** Sigma C2 is a custom-built **Command & Control (C2) framework** designed for **red team operations**. The goal? To dive into **offensive security** and pushing myself to learn coding fundamentals. 
+Project implements: 
+* C2 architecture
+* Secure communication
+* Automation
+* Payload generation
+* Remote command execution
 
-Developing a custom Command & Control (C2) framework designed for red team operations. I want to learn more about offensive security, so I decided to learn to code at least at basic level. Implemented secure communcation, automation, payload generation, and command execution features to simulate adversary tactics. More details in repo [GitHub Repository](https://github.com/khazovP/Sigma-C2)
+🔗**More details:** [GitHub Repository](https://github.com/khazovP/Sigma-C2)
 
-### Azure Mini SOC
+### **Azure Mini SOC – Cybersecurity Lab in the Cloud**  
+A **cloud-based Security Operations Center (SOC) simulation** for **threat detection, monitoring, and analysis** in Azure. The **Mini SOC** is built on a **segmented, firewall-protected network** featuring a **Palo Alto firewall, honeypot, target host with EDR, EDR server, attacker machine, and SIEM**.  
 
-This project aims to deploy a segmented firewall protected network in Azure with honeypot, target host (equipped with an EDR agent), an EDR server, an attacker host, and a SIEM. The goal is to create a controlled environment for cybersecurity analysis, monitoring, and testing. Already implemented network segmentation and integrated Palo Alto firewall. Set up policies, routing and integrated FW into Azure networking. Next stages include Honeypot, SIEM integration and endpoint security monitoring. More details in repo [GitHub Repository](https://github.com/khazovP/Mini-SOC)
+#### **Phase 1: Laying the Foundation**  
+The first step was to **build a secure and scalable network** to serve as the backbone for future cybersecurity operations:  
+✅ **Network segmentation** to isolate security zones.  
+✅ **Palo Alto firewall integration** for traffic control, policies, and routing.  
+✅ **Seamless Azure networking** to ensure proper communication between components.  
+
+This phase **set the stage for advanced security monitoring** in later phases.  
+🔗**Detailed documentation:** [GitHub Repository](https://github.com/khazovP/Mini-SOC)  
+
+#### **Phase 2: Threat Detection & SIEM Integration**  
+With the foundation in place, the focus shifted to **log collection, threat visibility, and security insights** through **Microsoft Sentinel SIEM**:  
+🔥 **Log Collector deployment** to centralize logs from the **firewall and Cowrie honeypot**.  
+🔥 **Firewall log forwarding in CEF format** for structured event ingestion.  
+🔥 **Honeypot attack capture** – tracking SSH brute force attempts in real time.  
+🔥 **Custom log parsing & Sentinel dashboards** for actionable threat intelligence.  
+🔥 **Azure troubleshooting deep dive**, solving NAT/SNAT challenges and ingress/egress quirks.  
+
+Now, the **Mini SOC** is actively **detecting threats, correlating attack data, and visualizing insights** with **custom security dashboards**.  
+🔗**Detailed documentation:** [GitHub Repository](https://github.com/khazovP/Mini-SOC-Phase2)  
