@@ -21,7 +21,7 @@ Greetings! I’m a cybersecurity analyst with 3 years of experience in 24x7 SOC 
 ## 🚀 Projects  
 
 ### **Sigma C2 – Custom Command & Control Framework**  
-**Offensive security meets hands-on development.** Sigma C2 is a custom-built **Command & Control (C2) framework** designed for **red team operations**. The goal? To dive into **offensive security** and pushing myself to learn coding fundamentals. 
+Offensive security meets hands-on development. Sigma C2 is a custom-built Command & Control (C2) framework designed for red team operations. The goal? To dive into offensive security and pushing myself to learn coding fundamentals. 
 Project implements: 
 * C2 architecture
 * Secure communication
@@ -29,27 +29,27 @@ Project implements:
 * Payload generation
 * Remote command execution
 
-🔗**More details:** [GitHub Repository](https://github.com/khazovP/Sigma-C2)
+🔗More details: [GitHub Repository](https://github.com/khazovP/Sigma-C2)
 
 ### **Azure Mini SOC – Cybersecurity Lab in the Cloud**  
-A **cloud-based Security Operations Center (SOC) simulation** for **threat detection, monitoring, and analysis** in Azure. The **Mini SOC** is built on a **segmented, firewall-protected network** featuring a **Palo Alto firewall, honeypot, target host with EDR, EDR server, attacker machine, and SIEM**.  
+A cloud-based Security Operations Center (SOC) simulation for threat detection, monitoring, and analysis in Azure. The **Mini SOC** is built on a segmented, firewall-protected network featuring a Palo Alto firewall, honeypot, target host with EDR, EDR server, attacker machine, and SIEM.  
 
 #### **Phase 1: Laying the Foundation**  
 The first step was to **build a secure and scalable network** to serve as the backbone for future cybersecurity operations:  
-✅ **Network segmentation** to isolate security zones.  
-✅ **Palo Alto firewall integration** for traffic control, policies, and routing.  
-✅ **Seamless Azure networking** to ensure proper communication between components.  
+✅ Network segmentation to isolate security zones.  
+✅ Palo Alto firewall integration for traffic control, policies, and routing.  
+✅ Seamless Azure networking to ensure proper communication between components.  
 
-This phase **set the stage for advanced security monitoring** in later phases.  
-🔗**Detailed documentation:** [GitHub Repository](https://github.com/khazovP/Mini-SOC)  
+This phase set the stage for advanced security monitoring in later phases.  
+🔗Detailed documentation: [GitHub Repository](https://github.com/khazovP/Mini-SOC)  
 
 #### **Phase 2: Threat Detection & SIEM Integration**  
 With the foundation in place, the focus shifted to **log collection, threat visibility, and security insights** through **Microsoft Sentinel SIEM**:  
-🔥 **Log Collector deployment** to centralize logs from the **firewall and Cowrie honeypot**.  
-🔥 **Firewall log forwarding in CEF format** for structured event ingestion.  
-🔥 **Honeypot attack capture** – tracking SSH brute force attempts in real time.  
-🔥 **Custom log parsing & Sentinel dashboards** for actionable threat intelligence.  
-🔥 **Azure troubleshooting deep dive**, solving NAT/SNAT challenges and ingress/egress quirks.  
+🔥 Log Collector deployment to centralize logs from the firewall and Cowrie honeypot.  
+🔥 Firewall log forwarding in CEF format for structured event ingestion.  
+🔥 Honeypot attack capture – tracking SSH brute force attempts in real time.  
+🔥 Custom log parsing & Sentinel dashboards for actionable threat intelligence.  
+🔥 Azure troubleshooting deep dive, solving NAT/SNAT challenges and ingress/egress quirks.  
 
-Now, the **Mini SOC** is actively **detecting threats, correlating attack data, and visualizing insights** with **custom security dashboards**.  
-🔗**Detailed documentation:** [GitHub Repository](https://github.com/khazovP/Mini-SOC-Phase2)  
+Now, the **Mini SOC** is actively collecting threat information and visualizing insights with custom security dashboards.  
+🔗Detailed documentation: [GitHub Repository](https://github.com/khazovP/Mini-SOC-Phase2)
