@@ -54,7 +54,7 @@ With the foundation in place, the focus shifted to **log collection, threat visi
 Now, the **Mini SOC** is actively collecting threat information and visualizing insights with custom security dashboards.  
 🔗Detailed documentation: [GitHub Repository](https://github.com/khazovP/Mini-SOC-Phase2)
 
-## Phase 3: EDR & Automated Threat Response  
+### Phase 3: EDR & Automated Threat Response
 
 This phase focused on **endpoint detection** and **automated threat mitigation** using Wazuh EDR and Sentinel.  
 
