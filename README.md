@@ -59,9 +59,9 @@ Now, the **Mini SOC** is actively collecting threat information and visualizing 
 This phase focused on **endpoint detection** and **automated threat mitigation** using Wazuh EDR and Sentinel.  
 
 ✅ Deployed **Wazuh EDR** on a new Ubuntu VM, resolved installation issues, and restored log forwarding.  
-✅ Implemented an **automation playbook** to dynamically **block attacker IPs** on the Palo Alto firewall.
-✅ Implemented **correlation rules** to extract real attacker IPs from logs.
-✅ Overcame **multiple challenges**
+✅ Implemented an **automation playbook** to dynamically **block attacker IPs** on the Palo Alto firewall.  
+✅ Implemented **correlation rules** to extract real attacker IPs from logs.  
+✅ Overcame **multiple challenges**  
 
 Now, the Mini SOC can **automatically detect and block threats** based on real-time security events.  
 
