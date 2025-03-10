@@ -31,10 +31,10 @@ Project implements:
 
 🔗More details: [GitHub Repository](https://github.com/khazovP/Sigma-C2)
 
-### **Azure Mini SOC – Cybersecurity Lab in the Cloud**  
+## **Azure Mini SOC – Cybersecurity Lab in the Cloud**  
 A cloud-based Security Operations Center (SOC) simulation for threat detection, monitoring, and analysis in Azure. The **Mini SOC** is built on a segmented, firewall-protected network featuring a Palo Alto firewall, honeypot, target host with EDR, EDR server, attacker machine, and SIEM.  
 
-#### **Phase 1: Laying the Foundation**  
+### **Phase 1: Laying the Foundation**  
 The first step was to **build a secure and scalable network** to serve as the backbone for future cybersecurity operations:  
 ✅ Network segmentation to isolate security zones.  
 ✅ Palo Alto firewall integration for traffic control, policies, and routing.  
@@ -43,7 +43,7 @@ The first step was to **build a secure and scalable network** to serve as the ba
 This phase set the stage for advanced security monitoring in later phases.  
 🔗Detailed documentation: [GitHub Repository](https://github.com/khazovP/Mini-SOC)  
 
-#### **Phase 2: Threat Detection & SIEM Integration**  
+### **Phase 2: Threat Detection & SIEM Integration**  
 With the foundation in place, the focus shifted to **log collection, threat visibility, and security insights** through **Microsoft Sentinel SIEM**:  
 🔥 Log Collector deployment to centralize logs from the firewall and Cowrie honeypot.  
 🔥 Firewall log forwarding in CEF format for structured event ingestion.  
@@ -53,3 +53,16 @@ With the foundation in place, the focus shifted to **log collection, threat visi
 
 Now, the **Mini SOC** is actively collecting threat information and visualizing insights with custom security dashboards.  
 🔗Detailed documentation: [GitHub Repository](https://github.com/khazovP/Mini-SOC-Phase2)
+
+## Phase 3: EDR & Automated Threat Response  
+
+This phase focused on **endpoint detection** and **automated threat mitigation** using Wazuh EDR and Sentinel.  
+
+✅ Deployed **Wazuh EDR** on a new Ubuntu VM, resolved installation issues, and restored log forwarding.  
+✅ Implemented an **automation playbook** to dynamically **block attacker IPs** on the Palo Alto firewall.
+✅ Implemented **correlation rules** to extract real attacker IPs from logs.
+✅ Overcame **multiple challenges**
+
+Now, the Mini SOC can **automatically detect and block threats** based on real-time security events.  
+
+🔗Detailed documentation: [GitHub Repository](https://github.com/khazovP/Mini-SOC-Phase3)
