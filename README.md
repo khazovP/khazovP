@@ -20,7 +20,7 @@ Greetings! I’m a cybersecurity analyst with 3 years of experience in 24x7 SOC 
 
 ## 🚀 Projects  
 
-### **Sigma C2 – Custom Command & Control Framework**  
+## **Sigma C2 – Custom Command & Control Framework**  
 Offensive security meets hands-on development. Sigma C2 is a custom-built Command & Control (C2) framework designed for red team operations. The goal? To dive into offensive security and pushing myself to learn coding fundamentals. 
 Project implements: 
 * C2 architecture
