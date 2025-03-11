@@ -7,8 +7,8 @@ Greetings! I’m a cybersecurity analyst with 3 years of experience in 24x7 SOC 
 
 | Project                                      | Skills                                         |
 |----------------------------------------------|-----------------------------------------------|
-| Sigma C2                                    | Command & Control (C2) Development, Red teaming, Scripting & Automation |
-| Azure Mini SOC                              | Network Architecture and Security, Firewall Configuration, Cloud Security, Log Management |
+| Sigma C2                                    | Programming, Red teaming, Scripting & Automation |
+| Azure Mini SOC                              | Network Architecture and Security, Firewall Configuration, Cloud, Log Management, Troubleshooting, Problem Solving |
 
 ## Tools
 
@@ -24,45 +24,52 @@ Greetings! I’m a cybersecurity analyst with 3 years of experience in 24x7 SOC 
 Offensive security meets hands-on development. Sigma C2 is a custom-built Command & Control (C2) framework designed for red team operations. The goal? To dive into offensive security and pushing myself to learn coding fundamentals. 
 Project implements: 
 * C2 architecture
-* Secure communication
+* Secure communication (TLS and DNS listeners)
 * Automation
-* Payload generation
+* Dynamic payload generation
 * Remote command execution
 
 🔗More details: [GitHub Repository](https://github.com/khazovP/Sigma-C2)
 
-## **Azure Mini SOC – Cybersecurity Lab in the Cloud**  
-A cloud-based Security Operations Center (SOC) simulation for threat detection, monitoring, and analysis in Azure. The **Mini SOC** is built on a segmented, firewall-protected network featuring a Palo Alto firewall, honeypot, target host with EDR, EDR server, attacker machine, and SIEM.  
+# Azure Mini SOC – Cybersecurity Lab in the Cloud
 
-### **Phase 1: Laying the Foundation**  
-The first step was to **build a secure and scalable network** to serve as the backbone for future cybersecurity operations:  
-✅ Network segmentation to isolate security zones.  
-✅ Palo Alto firewall integration for traffic control, policies, and routing.  
-✅ Seamless Azure networking to ensure proper communication between components.  
+A cloud-based Mini Security Operations Center simulation designed for threat detection, monitoring, and analysis within the Azure environment. This Mini SOC operates on a segmented network protected by enterprise-grade firewall, dedicated honeypot, target host with EDR agent, centralized EDR management server and log collector, controlled attack surface, integrated SIEM and Automation.
 
-This phase set the stage for advanced security monitoring in later phases.  
-🔗Detailed documentation: [GitHub Repository](https://github.com/khazovP/Mini-SOC)  
+## Phase 1: Foundation
 
-### **Phase 2: Threat Detection & SIEM Integration**  
-With the foundation in place, the focus shifted to **log collection, threat visibility, and security insights** through **Microsoft Sentinel SIEM**:  
-🔥 Log Collector deployment to centralize logs from the firewall and Cowrie honeypot.  
-🔥 Firewall log forwarding in CEF format for structured event ingestion.  
-🔥 Honeypot attack capture – tracking SSH brute force attempts in real time.  
-🔥 Custom log parsing & Sentinel dashboards for actionable threat intelligence.  
-🔥 Azure troubleshooting deep dive, solving NAT/SNAT challenges and ingress/egress quirks.  
+Established a robust security infrastructure serving as the foundation for advanced defensive operations:
 
-Now, the **Mini SOC** is actively collecting threat information and visualizing insights with custom security dashboards.  
-🔗Detailed documentation: [GitHub Repository](https://github.com/khazovP/Mini-SOC-Phase2)
+- Implemented strategic network segmentation creating distinct security zones
+- Deployed and configured Palo Alto firewall with granular traffic control policies
+- Engineered seamless Azure networking architecture ensuring proper communication
+- Overcame complex Azure networking challenges
+- 
+This phase layed the foundation for deployment of advanced security monitoring capabilities.
 
-### Phase 3: EDR & Automated Threat Response
+**[Full Documentation →](https://github.com/khazovP/Mini-SOC-Phase1)**
 
-This phase focused on **endpoint detection** and **automated threat mitigation** using Wazuh EDR and Sentinel.  
+## Phase 2: Logging & Visibility
 
-✅ Deployed **Wazuh EDR** on a new Ubuntu VM, resolved installation issues, and restored log forwarding.  
-✅ Implemented an **automation playbook** to dynamically **block attacker IPs** on the Palo Alto firewall.  
-✅ Implemented **correlation rules** to extract real attacker IPs from logs.  
-✅ Overcame **multiple challenges**  
+Building upon the core infrastructure, this phase focused on comprehensive log aggregation, threat visibility, and security insights through Microsoft Sentinel SIEM:
 
-Now, the Mini SOC can **automatically detect and block threats** based on real-time security events.  
+- Implemented centralized log forwarding
+- Integrated Cowrie honeypot for real-time capture and analysis of SSH brute force attacks
+- Developed parsing logic and Sentinel dashboards to visualize data
 
-🔗Detailed documentation: [GitHub Repository](https://github.com/khazovP/Mini-SOC-Phase3)
+The Mini SOC now actively harvests threat and visualizes collected intelligence.
+
+**[Full Documentation →](https://github.com/khazovP/Mini-SOC-Phase2)**
+
+## Phase 3: Threat Detection & Automated Response
+
+This phase elevated the environment with EDR and automated threat mitigation capabilities:
+
+- Successfully deployed EDR Solution
+- Implemented automated incident Response playbook for dynamic threat containment
+- Developed correlation rules to extract real attacker's IP from multi-source logs
+- Created automated threat blocking through firewall's API
+- Resolved complex integration challenges across the security stack
+
+The Mini SOC now functions as a completely autonomous defense system capable of detecting, analyzing, and neutralizing threats without human intervention.
+
+**[Full Documentation →](https://github.com/khazovP/Mini-SOC-Phase3)**
