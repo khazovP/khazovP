@@ -27,7 +27,7 @@ Project implements:
 * Sandbox detection
 * Remote command execution
 
-🔗More details: [GitHub Repository](https://github.com/khazovP/Sigma-C2)
+🔗More details: [Gitshare](https://gitshare.me/repo/cdc87435-2f59-4761-a003-b5375521e47e)
 
 # Azure Mini SOC – Cybersecurity Lab in the Cloud
 
