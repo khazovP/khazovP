@@ -10,7 +10,7 @@ Greetings! I’m a cybersecurity analyst with 3 years of experience in 24x7 SOC 
 | Sigma Command & Control Framework            | Programming, Red teaming, Scripting & Automation |
 | Azure Mini SOC                   | Network Architecture, Cloud, Log Management, Firewall, EDR, SIEM, Troubleshooting, Problem Solving |
 
-## Tools
+## Tools utilized
 
 <img src="https://img.shields.io/badge/-Microsoft_Azure-0089D6?&style=for-the-badge&logo=Microsoft-Azure&logoColor=white" /> <img src="https://img.shields.io/badge/-Palo_Alto_Networks-FF6F00?&style=for-the-badge&logo=Palo-Alto-Networks&logoColor=white" /> <img src="https://img.shields.io/badge/-Wazuh-EE0000?&style=for-the-badge&logo=Wazuh&logoColor=white" /> <img src="https://img.shields.io/badge/-Microsoft_Sentinel-0078D4?&style=for-the-badge&logo=Microsoft&logoColor=white" /> <img src="https://img.shields.io/badge/-Linux-FCC624?&style=for-the-badge&logo=Linux&logoColor=black" />
 
