@@ -1,39 +1,39 @@
 # Hello, I'm Pavlo Khazov
-<a href="https://linkedin.com/in/pavlo-khazov"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 
 Greetings! I’m a cybersecurity analyst with 3 years of experience in 24x7 SOC environments. I’m passionate about cybersecurity and technology and I’m willing to continue my career. I am constantly learning new things - both theory and by working on hands-on projects, focusing on network securty. This portfolio showcases my work and contributions to the field of cybersecurity.
 
-## Skills & Projects
+## Skills utilized
 
 | Project                                      | Skills                                         |
 |----------------------------------------------|-----------------------------------------------|
-| Sigma Command & Control Framework            | Programming, Red teaming, Scripting & Automation |
-| Azure Mini SOC                   | Network Architecture, Cloud, Log Management, Firewall, EDR, SIEM, Troubleshooting, Problem Solving |
+| Sigma Command & Control Server   | Programming, Scripting & Automation, Red teaming |
+| Azure Mini SOC                   | Network Architecture, Cloud, Log Management, Firewall, EDR, SIEM, Troubleshooting |
 
-## Tools utilized
+# 🚀 Projects  
 
-<img src="https://img.shields.io/badge/-Microsoft_Azure-0089D6?&style=for-the-badge&logo=Microsoft-Azure&logoColor=white" /> <img src="https://img.shields.io/badge/-Palo_Alto_Networks-FF6F00?&style=for-the-badge&logo=Palo-Alto-Networks&logoColor=white" /> <img src="https://img.shields.io/badge/-Wazuh-EE0000?&style=for-the-badge&logo=Wazuh&logoColor=white" /> <img src="https://img.shields.io/badge/-Microsoft_Sentinel-0078D4?&style=for-the-badge&logo=Microsoft&logoColor=white" /> <img src="https://img.shields.io/badge/-Linux-FCC624?&style=for-the-badge&logo=Linux&logoColor=black" />
-
-## 🚀 Projects  
-
-## **Sigma C2 – Custom Command & Control Framework**  
-Offensive security meets hands-on development. Sigma C2 is a custom-built Command & Control (C2) framework designed for red team operations. The goal? To dive into offensive security and pushing myself to learn coding fundamentals. 
+## 🔷 **Sigma C2 – Custom Command & Control Server**  
+Offensive security meets hands-on development. Sigma C2 is a custom-built Command & Control (C2) server designed for red team operations. The goal? To dive into offensive security and pushing myself to learn coding fundamentals. 
 Project implements: 
-* C2 architecture
-* Secure communication (TLS and DNS listeners)
-* Automation
+* C2 architecture with server, client and agents
+* Secure communication (TLS and HTTPS listeners)
+* Remote command execution
+* Sandbox detection
 * Dynamic payload generation
 * Data exfiltration
-* Sandbox detection
-* Remote command execution
+* Keyloger & Socks5 proxy
+* Shellcode injection
+* And much to be implemented in future
 
-🔗More details: [Gitshare](https://gitshare.me/repo/cdc87435-2f59-4761-a003-b5375521e47e)
+🔗 View source code: [Gitea](https://pkhazov.xyz/pkhazov/Sigma-C2)  
+🔗 View source code: [Gitshare](https://gitshare.me/repo/cdc87435-2f59-4761-a003-b5375521e47e)  
 
-# Azure Mini SOC – Cybersecurity Lab in the Cloud
+*Recommended to use my self-hosted Gitea, as Gitshare sometimes fails to sync
+
+## 🔷 Azure Mini SOC – Cybersecurity Lab in the Cloud
 
 A cloud-based Mini Security Operations Center simulation designed for threat detection, monitoring and analysis within the Azure environment. This Mini SOC operates on a segmented network protected by enterprise-grade firewall, dedicated honeypot, target host with EDR agent, centralized EDR management server and log collector, controlled attack surface, integrated SIEM and Automation.
 
-## Phase 1: Foundation
+### Phase 1: Foundation
 
 Established a robust security infrastructure serving as the foundation for advanced defensive operations:
 
@@ -46,7 +46,7 @@ This phase layed the foundation for deployment of advanced security monitoring c
 
 **[Full Documentation →](https://github.com/khazovP/Mini-SOC-Phase1)**
 
-## Phase 2: Logging & Visibility
+### Phase 2: Logging & Visibility
 
 Building upon the core infrastructure, this phase focused on log aggregation, threat visibility and security insights through Microsoft Sentinel SIEM:
 
@@ -58,7 +58,7 @@ The Mini SOC now actively harvests threat and visualizes collected intelligence.
 
 **[Full Documentation →](https://github.com/khazovP/Mini-SOC-Phase2)**
 
-## Phase 3: Threat Detection & Automated Response
+### Phase 3: Threat Detection & Automated Response
 
 This phase elevated the environment with EDR and automated threat mitigation capabilities:
 
