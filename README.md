@@ -24,10 +24,10 @@ Project implements:
 * Shellcode injection
 * And much to be implemented in future
 
-🔗 View source code: [Gitea](https://pkhazov.xyz/pkhazov/Sigma-C2)  
+🔗 View source code: [Gitea](https://git.pkhazov.xyz/pkhazov/Sigma-C2)  
 🔗 View source code: [Gitshare](https://gitshare.me/repo/cdc87435-2f59-4761-a003-b5375521e47e)  
 
-*Recommended to use my self-hosted Gitea, as Gitshare sometimes fails to sync
+*Recommended to access via my self-hosted Gitea, as Gitshare sometimes fails to sync.
 
 ## 🔷 Azure Mini SOC – Cybersecurity Lab in the Cloud
 
